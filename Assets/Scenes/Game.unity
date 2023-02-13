@@ -225,6 +225,7 @@ MonoBehaviour:
   nightMaterial: {fileID: 2100000, guid: fc9811d7b8abba8478b4a4bccf363105, type: 2}
   sunSprite: {fileID: -2413806693520163455, guid: 63d73db90c882d443b35e4cf00775dcd, type: 3}
   moonSprite: {fileID: 21300000, guid: c3609cca3fa8dc845a9d61fcb9fb60b3, type: 3}
+  transitionDuration: 1
 --- !u!58 &162030973
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -392,6 +393,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 323774487868584769, guid: 0a5085f75bcdc7d4da88db09ec9446cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4135902852737537685, guid: 0a5085f75bcdc7d4da88db09ec9446cf, type: 3}
       propertyPath: m_Name
       value: Level
